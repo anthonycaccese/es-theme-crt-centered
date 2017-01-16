@@ -9,10 +9,10 @@ https://www.youtube.com/embed/_elwCV5hxeA
 ###Screenshots
 
 *Video View*
-![Video View](http://i.imgur.com/qnF6N82.png)
+![Video View](http://i.imgur.com/JFpJIhV.png)
 
 *Detailed View*
-![Detailed View](http://i.imgur.com/Kv9fdNM.png)
+![Detailed View](http://i.imgur.com/ax142A1.png)
 
 *Basic View*
 ![Basic View](http://i.imgur.com/BKuMTOL.png)
@@ -35,7 +35,6 @@ https://www.youtube.com/embed/_elwCV5hxeA
 
 ##Possible Future Updates
 
-- Adding support for the new marquee tag
 - System specific backgrounds that match historical poster designs for a given system (I built an NES example to check out here: http://i.imgur.com/XCx3Tko.png)
 - I have started following this thread - https://retropie.org.uk/forum/topic/6964/video-view-for-all-themes - and know I likely need to make updates for backwards compatibility
 - Child Friendly ES support - I need to install a version I can play with - will try to do that in the next few weeks
