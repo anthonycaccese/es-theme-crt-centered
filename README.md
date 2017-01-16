@@ -15,9 +15,9 @@ https://www.youtube.com/embed/_elwCV5hxeA
 ![Detailed View](http://i.imgur.com/ax142A1.png)
 
 *Basic View*
-![Basic View](http://i.imgur.com/BKuMTOL.png)
+![Basic View](http://i.imgur.com/npqHCZy.png)
 
-[For more images view the album on Imgur](http://imgur.com/a/w7JNT)
+[For more images view the album on Imgur](http://imgur.com/a/2CSSk)
 
 
 ##Details
