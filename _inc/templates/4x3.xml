@@ -1,0 +1,107 @@
+<!--
+theme name:     CRT Centered
+version:        1.0
+author:         Anthony
+license:        creative commons CC-BY-NC-SA
+based on:       "Carbon Centered" by Eric Hettervik
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>4</formatVersion>
+
+   <view name="system">
+      <image name="system-background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <tile>true</tile>
+         <path>./../images/background.png</path>
+      </image>
+   </view>
+
+   <view name="system,basic,detailed,video">
+      <helpsystem name="help">
+         <textColor>777777</textColor>
+         <iconColor>77777750</iconColor>
+      </helpsystem>
+   </view>
+
+   <view name="basic,detailed,video">
+      <image name="background">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <tile>true</tile>
+         <path>./../images/background.png</path>
+      </image>
+      <image name="logo">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.075</pos>
+         <maxSize>0.35 0.06</maxSize>
+      </image>
+      <textlist name="gamelist">
+         <pos>0.1875 0.175</pos>
+         <size>0.625 0.675</size>
+         <selectorColor>1c1c1c00</selectorColor>
+         <selectedColor>bba358</selectedColor>
+         <primaryColor>eaeaea</primaryColor>
+         <secondaryColor>eaeaea</secondaryColor>
+         <fontPath>./../fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.038</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound>./../sounds/select.wav</scrollSound>
+         <alignment>center</alignment>
+      </textlist>
+   </view>
+
+   <view name="detailed,video">
+      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_description, md_releasedate, md_lastplayed">
+         <pos>1 1</pos>
+      </text>
+      <image name="crt" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.35</pos>
+         <size>0.4020833333333333 0.425</size>
+         <path>./../images/crt.png</path>
+      </image>
+      <textlist name="gamelist">
+         <pos>0.05 0.558</pos>
+         <size>0.9 0.275</size>
+      </textlist>
+   </view>
+
+   <view name="detailed">
+      <image name="md_image">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.35</pos>
+         <maxSize>0.3333333333333333 0.3333333333333333</maxSize>
+      </image>
+   </view>
+
+   <feature supported="video">
+      <view name="video">
+         <image name="crt" extra="true">
+            <path>./../images/crt-video.png</path>
+         </image>
+         <image name="md_image">
+            <origin>1 1</origin>
+            <pos>0.686 0.5305555555555556</pos>
+            <maxSize>0.1354166666666667 0.1805555555555556</maxSize>
+         </image>
+         <image name="md_marquee">
+            <origin>0 0</origin>
+            <pos>1 1</pos>
+         </image>
+         <video name="md_video">
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.35</pos>
+            <maxSize>0.3333333333333333 0.3333333333333333</maxSize>
+            <delay>0.5</delay>
+            <default>./../videos/static.mp4</default>
+            <showSnapshotNoVideo>false</showSnapshotNoVideo>
+            <showSnapshotDelay>false</showSnapshotDelay>
+         </video>
+      </view>
+   </feature>
+   
+</theme>
